@@ -9,7 +9,7 @@ import java.text.NumberFormat;
 
 /* This class stores the attributes of, collects information for, and builds a contract. Note that the daily charge, if
  * applicable, is assessed on the checkout date, but not on the due date. You can think of the due date as saying "the
- * tool must be returned by midnight of this date". Alternatively, the tool rental business may choose not to charge customers
+ * tool must be returned by 00:00 this date". Alternatively, the tool rental business may choose not to charge customers
  * for the due date as long as the customer returns the tool in a timely fashion.
  * All checkout dates must be 01/01/2000 or later. However, presumably you are not retroactively renting out tools for use in the 1900s.
  */
